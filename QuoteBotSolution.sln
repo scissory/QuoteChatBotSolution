@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2019
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuoteBotService", "QuoteBotService\QuoteBotService.csproj", "{266012F7-91D0-4509-99B9-F3B0762DB8F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuoteBot", "QuoteBot\QuoteBot.csproj", "{514FB477-8963-4D9E-81B5-5A924929F1FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuoteBotTester", "QuoteBotTester\QuoteBotTester.csproj", "{7F5126FA-4F99-48B7-BFD1-9F882AD480E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuoteLibrary", "QuoteLibrary\QuoteLibrary.csproj", "{1DCD2400-D570-4DC7-B92C-404CA36BAA8C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{266012F7-91D0-4509-99B9-F3B0762DB8F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{266012F7-91D0-4509-99B9-F3B0762DB8F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{266012F7-91D0-4509-99B9-F3B0762DB8F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{266012F7-91D0-4509-99B9-F3B0762DB8F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{514FB477-8963-4D9E-81B5-5A924929F1FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{514FB477-8963-4D9E-81B5-5A924929F1FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{514FB477-8963-4D9E-81B5-5A924929F1FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{514FB477-8963-4D9E-81B5-5A924929F1FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F5126FA-4F99-48B7-BFD1-9F882AD480E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F5126FA-4F99-48B7-BFD1-9F882AD480E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F5126FA-4F99-48B7-BFD1-9F882AD480E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F5126FA-4F99-48B7-BFD1-9F882AD480E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DCD2400-D570-4DC7-B92C-404CA36BAA8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DCD2400-D570-4DC7-B92C-404CA36BAA8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DCD2400-D570-4DC7-B92C-404CA36BAA8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DCD2400-D570-4DC7-B92C-404CA36BAA8C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C081D3EA-2110-47D1-BDB1-A0FAB7B9797F}
+	EndGlobalSection
+EndGlobal
