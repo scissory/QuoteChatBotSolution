@@ -22,7 +22,7 @@ namespace QuoteBot
             .Where(l => l.Length > 0)  //nonempty strings
             .Skip(1)               // skip header 
             .Select(s => s.Trim())   // delete whitespace
-            .Select(l => l.Split(';')) // get arrays of values
+            .Select(l => l.Split('\t')) // get arrays of values
             .Select(l => new QuoteRecord(l[0], l[1], l[2]));
 
             dictionary = Data.ToList<QuoteRecord>();
