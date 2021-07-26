@@ -19,10 +19,10 @@ namespace QuoteBot
     {
         private const string TWITCH_HOST = "irc.chat.twitch.tv";
         private const int TWITCH_PORT = 6667;
-        private const string NICKNAME = "likesdogs";
+        private const string NICKNAME = "davesquotebot";
         //private const string PASSWORD = "oauth:snbu5dbbt1dgoyzmiu2aqldbtn596h";
-        private const string PASSWORD = "snbu5dbbt1dgoyzmiu2aqldbtn596h";
-        private const string CHANNEL = "likesdogs";
+        private const string PASSWORD = "dvn7gv8pbh07tycrzidcf4vz5pkvba";
+        private const string CHANNEL = "brazen_twitch_jobseeker";
 
         public TwitchClient Client { get; set; }
         public string Server { get; set; }
