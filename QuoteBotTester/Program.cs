@@ -23,7 +23,7 @@ namespace QuoteBotTester
         {
 
             System.Timers.Timer timer = new System.Timers.Timer();
-            timer.Interval = 5 * 60 * 1000; 
+            timer.Interval = 15 * 1000; 
             timer.Elapsed += Timer_Elapsed;
             timer.Start();
 

@@ -84,8 +84,15 @@ namespace QuoteBot
         
         public void SendMessage(string quote)
         {
-            Client.SendMessage(Client.JoinedChannels[0], quote);
-            Client.Disconnect();
+            try
+            {
+                Client.SendMessage(Client.JoinedChannels[0], quote);
+                
+            }
+            finally
+            {
+                Client.Disconnect();
+            }
         }
       
 
